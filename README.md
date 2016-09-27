@@ -1,19 +1,19 @@
 # gfm-validate
-A simple GitHub Flavored Markdown (Gfm) validator. Uses the [Octokit .NET client library for GitHub](https://github.com/octokit/octokit.net). 
+A simple GitHub Flavored Markdown (Gfm) validator that uses the [Octokit .NET client library for GitHub](https://github.com/octokit/octokit.net). 
 
 ![screenshot](https://github.com/AndrewJByrne/gfm-validate/blob/master/assets/app-screenshot.png)
 
 This Windows desktop app demonstrates the following:
-* Connecting to GitHub APIs using the Octokit library for .NET 4.5
-* Parsing markdown into raw HTML using the RenderRawMarkdown method from the Octokit library
-* Displaying HTML using the GitHub CSS to show how the soruce markdown will render on GitHub
-* A little bit of MVVM
-* Handling drag/drop of markdown files onto the app surface
+* Connecting to GitHub APIs using the Octokit library for .NET 4.5.
+* Parsing markdown into raw HTML using the **RenderRawMarkdown** method from the Octokit library.
+* Displaying HTML using the GitHub CSS to show how the source markdown will render on GitHub.
+* A little bit of MVVM.
+* Handling drag and drop of markdown files onto the app surface.
 * App settings
-* Suppression of browser control warnings, preventing browser control from being a drop target
-* Using Octokit 0.13.0
+* Suppression of browser control warnings, and preventing the browser control from being a drop target.
+* Using Octokit 0.13.0.
 
-Got any ideas for how to improve this app? Log an issue to the [Issues List](https://github.com/AndrewJByrne/gfm-validate/issues)
+Got any ideas for how to improve this app? Log an issue to the [Issues List](https://github.com/AndrewJByrne/gfm-validate/issues).
 
 Talk to me on Twitter @AndrewJByrne
 
